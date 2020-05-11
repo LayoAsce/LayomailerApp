@@ -45,7 +45,14 @@ app.get('/', (req, res) => {
     from: 'layomuhammed@gmail.com',
     to: 'layomuhammed@gmail.com',
     subject: `${subject}`,
-    html: `<h1 style="text-align: center;">Welcome: ${name}</h1><p style="text-align:center; ">${message}</p><br><p>From ${email}</p>`
+    html: `
+        <ul>  
+            <li>Welcome: ${name}</li>
+            <li>From: ${email}</li>
+            <li>Subject: ${subject}</li>
+        </ul> 
+        <h3 style="test-decoration:underline">Message</h3>
+         ${message} `
 };
 
 
@@ -61,6 +68,7 @@ transporter.sendMail(mailOptions, function(error, info){
 });
 
 const port = process.env.PORT || 8000;
+
 app.listen(port, () => {
-  console.log('server started on port ${port}');
+  console.log(`Server started on port ${port}`);
 });
