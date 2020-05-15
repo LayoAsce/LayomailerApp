@@ -10,6 +10,6 @@ This is a simple node.js app, nodemailer.
 
 ## SAMPLE  PREVIEW
 
-![Sample Page](layomailer.JPG)
+![Sample Page](layomailer.jpeg)
 
 #### Visit the demo  [here](https://layomailer.herokuapp.com/)
