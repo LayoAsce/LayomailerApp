@@ -12,4 +12,4 @@ This is a simple node.js app, nodemailer.
 
 ![Sample Page](layomailer.JPG)
 
-#### Visit the demo  [here](layomailer.herokuapp.com)
+#### Visit the demo  [here](https://layomailer.herokuapp.com/)
